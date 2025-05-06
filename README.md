@@ -1,7 +1,7 @@
-# BEVDet
+# DepthFusion
 
 
-![](./resources/nds-fps-dal.png)
+![](./resources/pipeline.png)
 
 
 ## News
