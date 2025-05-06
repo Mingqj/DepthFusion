@@ -9,11 +9,11 @@
 
 ## Main Results
 ### Nuscenes Detection
-| Config                                                                    | mAP        | NDS        | Latency(ms) | FPS  | Model                                                                                          | Log                                                                                            |
+| Config                                                                    | mAP        | NDS        | Latency(ms) | FPS  | Model                                                                                          |
 | ------------------------------------------------------------------------- | ---------- | ---------- | ---- | ---- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [**DAL-Tiny**](configs/dal/dal-tiny.py) | 67.4 | 71.3 |-  |16.6 | [baidu](https://pan.baidu.com/s/15rmJL_SWUeQEXG9dYYl8gA?pwd=36g5) | [baidu](https://pan.baidu.com/s/15rmJL_SWUeQEXG9dYYl8gA?pwd=36g5) |
-| [**DAL-Base**](configs/dal/dal-base.py) | 70.0 | 73.4 |-  |10.7 | [baidu](https://pan.baidu.com/s/15rmJL_SWUeQEXG9dYYl8gA?pwd=36g5) | [baidu](https://pan.baidu.com/s/15rmJL_SWUeQEXG9dYYl8gA?pwd=36g5) |
-| [**DAL-Large**](configs/dal/dal-large.py) | 71.5 | 74.0 |-  |6.10 | [baidu](https://pan.baidu.com/s/15rmJL_SWUeQEXG9dYYl8gA?pwd=36g5) | [baidu](https://pan.baidu.com/s/15rmJL_SWUeQEXG9dYYl8gA?pwd=36g5) |
+| [**DepthFusion_tiny**](configs/depthfusion/depthfusion-tiny.py) | 69.8 | 73.3 | 72.4  |13.8 | - | 
+| [**DepthFusion_Base**](configs/depthfusion/depthfusion-base.py) | 71.2 | 74.0 | 114.9  |8.7 | - |
+| [**DepthFusion-Large**](configs/depthfusion/depthfusion-large.py) | 72.3 | 74.4 | 175.4  |5.7 | - |
 
 \# align previous frame bev feature during the view transformation.
 
