@@ -1,8 +1,14 @@
-# DepthFusion
+# DepthFusion: Depth-Aware Hybrid Feature Fusion for LiDAR-Camera 3D Object Detection
 
+<div align="center">
+
+[Mingqian Ji](https://github.com/Mingqj) <sup>1, </sup>,
+Jian Yang <sup>2</sup>,
+Shanshan Zhang <sup>1,✉</sup>
+
+This repository represents the official implementation of the paper titled "DepthFusion: Depth-Aware Hybrid Feature Fusion for LiDAR-Camera 3D Object Detection".
 
 ![](./resources/pipeline.png)
-
 
 ## News
 - **2025.05.06** Support DepthFusion for 3D object detection with LiDAR-camera fusion.
