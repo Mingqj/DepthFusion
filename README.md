@@ -2,9 +2,11 @@
 
 <div align="center">
 
-[Mingqian Ji](https://github.com/Mingqj) <sup>1, </sup>,
-Jian Yang <sup>2</sup>,
-Shanshan Zhang <sup>1,✉</sup>
+[Mingqian Ji](https://github.com/Mingqj) , </sup>,
+Jian Yang </sup>,
+Shanshan Zhang ✉</sup>
+
+</div>
 
 This repository represents the official implementation of the paper titled "DepthFusion: Depth-Aware Hybrid Feature Fusion for LiDAR-Camera 3D Object Detection".
 
