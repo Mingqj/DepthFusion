@@ -11,8 +11,8 @@
 ### Nuscenes Detection
 | Config                                                                    | mAP        | NDS        | Latency(ms) | FPS  | Model                                                                                          |
 | ------------------------------------------------------------------------- | ---------- | ---------- | ---- | ---- | ---------------------------------------------------------------------------------------------- |
-| [**DepthFusion_Light**](configs/depthfusion/depthfusion-tiny.py) | 69.8 | 73.3 | 72.4  |13.8 | - | 
-| [**DepthFusion_Base**](configs/depthfusion/depthfusion-base.py) | 71.2 | 74.0 | 114.9  |8.7 | - |
+| [**DepthFusion-Light**](configs/depthfusion/depthfusion-tiny.py) | 69.8 | 73.3 | 72.4  |13.8 | - | 
+| [**DepthFusion-Base**](configs/depthfusion/depthfusion-base.py) | 71.2 | 74.0 | 114.9  |8.7 | - |
 | [**DepthFusion-Large**](configs/depthfusion/depthfusion-large.py) | 72.3 | 74.4 | 175.4  |5.7 | - |
 
 
@@ -29,7 +29,7 @@ cd DepthFusion
 pip install -v -e .
 ```
 
-step 3. Prepare nuScenes dataset as introduced in [nuscenes_det.md](docs/en/datasets/nuscenes_det.md) and create the pkl for BEVDet by running:
+step 3. Prepare nuScenes dataset as introduced in [nuscenes_det.md](docs/en/datasets/nuscenes_det.md) and create the pkl for DepthFusion by running:
 ```shell
 python tools/create_data_bevdet.py
 ```
