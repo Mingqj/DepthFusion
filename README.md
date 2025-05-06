@@ -32,7 +32,7 @@ We propose a novel depth encoding strategy to guide multi-modal fusion in 3D obj
 
 step 1. Please prepare environment as that in [Docker](docker/Dockerfile).
 
-step 2. Prepare bevdet repo by.
+step 2. Prepare DepthFusion repo by.
 ```shell script
 git clone https://github.com/Mingqj/DepthFusion.git
 cd DepthFusion
