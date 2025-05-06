@@ -218,8 +218,7 @@ model = dict(
 )
 
 dataset_type = 'NuScenesDataset'
-data_root = '/opt/data/private/codeN1/mmdetection3d/data/nuscenes/' # trainval
-# data_root = './data/nuscenes/'
+data_root = './data/nuscenes/'
 
 file_client_args = dict(backend='disk')
 
@@ -233,7 +232,7 @@ bda_aug_conf = dict(
 
 db_sampler = dict(
     data_root=data_root,
-    info_path=data_root + 'full-bevdetv3-nuscenes_dbinfos_train.pkl',
+    info_path=data_root + 'bevdetv3-nuscenes_dbinfos_train.pkl',
     rate=1.0,
     prepare=dict(
         filter_by_difficulty=[-1],
@@ -408,7 +407,7 @@ data = dict(
         dataset=dict(
             type=dataset_type,
             data_root=data_root,
-            ann_file=data_root + 'full-bevdetv3-nuscenes_infos_train.pkl',
+            ann_file=data_root + 'bevdetv3-nuscenes_infos_train.pkl',
             pipeline=train_pipeline,
             classes=class_names,
             test_mode=False,
@@ -420,11 +419,11 @@ data = dict(
             box_type_3d='LiDAR')),
     val=dict(pipeline=test_pipeline, classes=class_names,
              modality=input_modality,
-             ann_file=data_root + 'full-bevdetv3-nuscenes_infos_val.pkl',
+             ann_file=data_root + 'bevdetv3-nuscenes_infos_val.pkl',
              img_info_prototype='bevdet'),
     test=dict(pipeline=test_pipeline, classes=class_names,
               modality=input_modality,
-              ann_file=data_root + 'full-bevdetv3-nuscenes_infos_val.pkl',
+              ann_file=data_root + 'bevdetv3-nuscenes_infos_val.pkl',
               img_info_prototype='bevdet'))
 
 evaluation = dict(interval=20, pipeline=test_pipeline)
