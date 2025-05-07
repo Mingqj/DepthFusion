@@ -8,6 +8,8 @@
 
 Nanjing University of Science and Technology
 
+✉ Corresponding author
+
 </div>
 
 ## About
