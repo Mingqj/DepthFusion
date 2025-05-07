@@ -1,6 +1,6 @@
 <p align="center">
   <img src="./resources/depthfusion.png" alt="DepthFusion Logo" height="60" style="vertical-align: middle;">
-  <span style="font-size:20px; vertical-align: middle;"><strong>DepthFusion: Depth-Aware Hybrid Feature Fusion for LiDAR-Camera 3D Object Detection</strong></span>
+  <span style="font-size:12px; vertical-align: middle;"><strong>DepthFusion: Depth-Aware Hybrid Feature Fusion for LiDAR-Camera 3D Object Detection</strong></span>
 </p>
 
 <div align="center">
