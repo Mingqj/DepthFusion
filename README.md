@@ -6,6 +6,8 @@
 [Jian Yang](https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN) </sup>,
 [Shanshan Zhang](https://shanshanzhang.github.io/) ✉</sup>
 
+Nanjing University of Science and Technology
+
 </div>
 
 This repository represents the official implementation of the paper titled "DepthFusion: Depth-Aware Hybrid Feature Fusion for LiDAR-Camera 3D Object Detection".
@@ -14,8 +16,8 @@ We propose a novel depth encoding strategy to guide multi-modal fusion in 3D obj
 
 ![](./resources/pipeline.png)
 
-## News
-- **2025.05.06** Support DepthFusion for 3D object detection with LiDAR-camera fusion.
+## Updates
+- [2025.05.06] - Support DepthFusion for 3D object detection with LiDAR-camera fusion.
 
 ## Main Results
 ### Nuscenes Detection
@@ -88,3 +90,4 @@ This project is not possible without multiple great open-sourced code bases. We 
 - [Swin Transformer](https://github.com/microsoft/Swin-Transformer)
 - [BEVFusion](https://github.com/mit-han-lab/bevfusion)
 - [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth)
+- [nuScenes-C](https://opendatalab.com/OpenDataLab/nuScenes-C)
