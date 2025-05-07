@@ -1,3 +1,4 @@
+![](./resources/depthfusion.png)
 # DepthFusion: Depth-Aware Hybrid Feature Fusion for LiDAR-Camera 3D Object Detection
 
 <div align="center">
