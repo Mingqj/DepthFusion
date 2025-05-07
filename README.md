@@ -4,7 +4,7 @@
 
 [Mingqian Ji](https://github.com/Mingqj) </sup>,
 Jian Yang </sup>,
-Shanshan Zhang ✉</sup>
+[Shanshan Zhang](https://shanshanzhang.github.io/) ✉</sup>
 
 </div>
 
@@ -52,20 +52,20 @@ step 4. Arrange the folder as:
     └── gts (new)
 ```
 
-#### Train model
+#### Train depthfusion-light (-base / -large) model
 ```shell
 # single gpu
 python tools/train.py /configs/depthfusion/depthfuison-light.py
 # multiple gpu
-./tools/dist_train.sh $config num_gpu
+./tools/dist_train.sh /configs/depthfusion/depthfuison-light.py 8
 ```
 
-#### Test model
+#### Test depthfusion-light (-base / -large) model
 ```shell
 # single gpu
-python tools/test.py $config $checkpoint --eval mAP
+python tools/test.py /configs/depthfusion/depthfuison-light.py $checkpoint --eval mAP
 # multiple gpu
-./tools/dist_test.sh $config $checkpoint num_gpu --eval mAP
+./tools/dist_test.sh /configs/depthfusion/depthfuison-light.py $checkpoint 8 --eval mAP
 ```
 
 #### Visualize the predicted result.
@@ -73,7 +73,7 @@ python tools/test.py $config $checkpoint --eval mAP
 - Private implementation. (Visualization remotely/locally)
 
 ```shell
-python tools/test.py $config $checkpoint --format-only --eval-options jsonfile_prefix=$savepath
+python tools/test.py /configs/depthfusion/depthfuison-light.py $checkpoint --format-only --eval-options jsonfile_prefix=$savepath
 python tools/analysis_tools/vis.py $savepath/pts_bbox/results_nusc.json
 ```
 
@@ -82,10 +82,9 @@ python tools/analysis_tools/vis.py $savepath/pts_bbox/results_nusc.json
 This project is not possible without multiple great open-sourced code bases. We list some notable examples below.
 
 - [open-mmlab](https://github.com/open-mmlab)
+- [BEVDet](https://github.com/HuangJunJie2017/BEVDet)
 - [CenterPoint](https://github.com/tianweiy/CenterPoint)
 - [Lift-Splat-Shoot](https://github.com/nv-tlabs/lift-splat-shoot)
 - [Swin Transformer](https://github.com/microsoft/Swin-Transformer)
 - [BEVFusion](https://github.com/mit-han-lab/bevfusion)
 - [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth)
-- [BEVerse](https://github.com/zhangyp15/BEVerse)
-- [BEVStereo](https://github.com/Megvii-BaseDetection/BEVStereo)
