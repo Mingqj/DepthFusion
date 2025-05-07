@@ -71,20 +71,29 @@ step 4. Arrange the folder as:
     └── gts (new)
 ```
 
-#### Train depthfusion-light (-base / -large) model
+#### Train DepthFusion model
 ```shell
 # single gpu
-python tools/train.py /configs/depthfusion/depthfuison-light.py
+python tools/train.py /configs/depthfusion/depthfuison-light.py # light version
+python tools/train.py /configs/depthfusion/depthfuison-base.py # base version
+python tools/train.py /configs/depthfusion/depthfuison-large.py # large version
 # multiple gpu
-./tools/dist_train.sh /configs/depthfusion/depthfuison-light.py 8
+./tools/dist_train.sh /configs/depthfusion/depthfuison-light.py 8 # light version
+./tools/dist_train.sh /configs/depthfusion/depthfuison-base.py 8 # base version
+./tools/dist_train.sh /configs/depthfusion/depthfuison-large.py 8 # large version
+
 ```
 
-#### Test depthfusion-light (-base / -large) model
+#### Test DepthFusion model
 ```shell
 # single gpu
-python tools/test.py /configs/depthfusion/depthfuison-light.py $checkpoint --eval mAP
+python tools/test.py /configs/depthfusion/depthfuison-light.py $checkpoint --eval mAP # light version
+python tools/test.py /configs/depthfusion/depthfuison-base.py $checkpoint --eval mAP # base version
+python tools/test.py /configs/depthfusion/depthfuison-large.py $checkpoint --eval mAP # large version
 # multiple gpu
-./tools/dist_test.sh /configs/depthfusion/depthfuison-light.py $checkpoint 8 --eval mAP
+./tools/dist_test.sh /configs/depthfusion/depthfuison-light.py $checkpoint 8 --eval mAP # light version
+./tools/dist_test.sh /configs/depthfusion/depthfuison-base.py $checkpoint 8 --eval mAP # base version
+./tools/dist_test.sh /configs/depthfusion/depthfuison-large.py $checkpoint 8 --eval mAP # large version
 ```
 
 #### Visualize the predicted result.
@@ -92,7 +101,14 @@ python tools/test.py /configs/depthfusion/depthfuison-light.py $checkpoint --eva
 - Private implementation. (Visualization remotely/locally)
 
 ```shell
+# light version
 python tools/test.py /configs/depthfusion/depthfuison-light.py $checkpoint --format-only --eval-options jsonfile_prefix=$savepath
+python tools/analysis_tools/vis.py $savepath/pts_bbox/results_nusc.json
+# base version
+python tools/test.py /configs/depthfusion/depthfuison-base.py $checkpoint --format-only --eval-options jsonfile_prefix=$savepath
+python tools/analysis_tools/vis.py $savepath/pts_bbox/results_nusc.json
+# large version
+python tools/test.py /configs/depthfusion/depthfuison-large.py $checkpoint --format-only --eval-options jsonfile_prefix=$savepath
 python tools/analysis_tools/vis.py $savepath/pts_bbox/results_nusc.json
 ```
 
