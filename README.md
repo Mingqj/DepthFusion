@@ -97,9 +97,6 @@ python tools/test.py /configs/depthfusion/depthfuison-large.py $checkpoint --eva
 ```
 
 #### Visualize the predicted result.
-
-- Private implementation. (Visualization remotely/locally)
-
 ```shell
 # light version
 python tools/test.py /configs/depthfusion/depthfuison-light.py $checkpoint --format-only --eval-options jsonfile_prefix=$savepath
