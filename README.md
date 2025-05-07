@@ -34,7 +34,10 @@ We propose a novel depth encoding strategy to guide multi-modal fusion in 3D obj
 
 #### Installation and Data Preparation
 
-step 1. Please prepare environment as that in [Docker](docker/Dockerfile).
+step 1. Please prepare environment as that in [Docker](docker/Dockerfile) and run:
+```shell
+pip install -r requirements.txt
+```
 
 step 2. Prepare DepthFusion repo by.
 ```shell script
