@@ -10,6 +10,8 @@ Nanjing University of Science and Technology
 
 </div>
 
+## About
+
 This repository represents the official implementation of the paper titled "DepthFusion: Depth-Aware Hybrid Feature Fusion for LiDAR-Camera 3D Object Detection".
 
 We propose a novel depth encoding strategy to guide multi-modal fusion in 3D object detection. By encoding depth, our method adaptively adjusts the modality weights at both the global and local feature levels, enabling more effective LiDAR-camera fusion across varying depth ranges.
