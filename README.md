@@ -1,5 +1,5 @@
 <p align\="center"\>
-  <img src\="./resources/depthfusion.png" alt\="DepthFusion Logo" height\="60" style="vertical-align: middle;" \><br\> 
+  <img src\="./resources/depthfusion.png" alt\="DepthFusion Logo" height\="60" style="vertical-align: middle" ><br\> 
   <h2\>DepthFusion: Depth-Aware Hybrid Feature Fusion for LiDAR-Camera 3D Object Detection</h2\> 
 </p\>
 
