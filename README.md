@@ -55,7 +55,7 @@ step 4. Arrange the folder as:
 #### Train model
 ```shell
 # single gpu
-python tools/train.py $config
+python tools/train.py /configs/depthfusion/depthfuison-light.py
 # multiple gpu
 ./tools/dist_train.sh $config num_gpu
 ```
