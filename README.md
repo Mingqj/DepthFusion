@@ -41,7 +41,7 @@ cd DepthFusion
 pip install -v -e .
 ```
 
-step 3. Prepare nuScenes dataset as introduced in [nuscenes_det.md](docs/en/datasets/nuscenes_det.md) and create the pkl for DepthFusion by running:
+step 3. Prepare nuScenes dataset and create the pkl for DepthFusion by running:
 ```shell
 python tools/create_data_bevdet.py
 ```
