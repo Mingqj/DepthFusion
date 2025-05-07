@@ -25,7 +25,7 @@ We propose a novel depth encoding strategy to guide multi-modal fusion in 3D obj
 ### Nuscenes Detection
 | Config                                                            | mAP        | NDS        | Backbone| Image size | Latency(ms) | FPS  | Model|
 | ----------------------------------------------------------------- | ---------- | ---------- | ------- | ---------- | ------------|------|------|
-| [**DepthFusion-Light**](configs/depthfusion/depthfusion-tiny.py)  | 69.8 | 73.3 | ResNet18 | 256*704 |  72.4  |13.8 | - | 
+| [**DepthFusion-Light**](configs/depthfusion/depthfusion-tiny.py)  | 69.8 | 73.3 | ResNet18 | 256 $\times$ 704 |  72.4  |13.8 | - | 
 | [**DepthFusion-Base**](configs/depthfusion/depthfusion-base.py)   | 71.2 | 74.0 | ResNet18 | 256*704 | 114.9  |8.7 | - |
 | [**DepthFusion-Large**](configs/depthfusion/depthfusion-large.py) | 72.3 | 74.4 | ResNet18 | 256*704 | 175.4  |5.7 | - |
 
