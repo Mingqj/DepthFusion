@@ -29,6 +29,7 @@ We propose a novel depth encoding strategy to guide multi-modal fusion in 3D obj
 | [**DepthFusion-Base**](configs/depthfusion/depthfusion-base.py) | 71.2 | 74.0 | 114.9  |8.7 | - |
 | [**DepthFusion-Large**](configs/depthfusion/depthfusion-large.py) | 72.3 | 74.4 | 175.4  |5.7 | - |
 
+The pretrained model weights will be released soon.
 
 ## Get Started
 
@@ -37,6 +38,17 @@ We propose a novel depth encoding strategy to guide multi-modal fusion in 3D obj
 step 1. Please prepare environment as that in [Docker](docker/Dockerfile) and run:
 ```shell
 pip install -r requirements.txt
+```
+
+We use the following main environment:
+```shell
+torch                     1.10.0+cu111             
+torchvision               0.10.0+rocm4.1
+mmcls                     0.25.0                   
+mmcv-full                 1.5.3                    
+mmdet                     2.25.1                   
+mmdet3d                   1.0.0rc4                 
+mmsegmentation            0.25.0                                       
 ```
 
 step 2. Prepare DepthFusion repo by.
