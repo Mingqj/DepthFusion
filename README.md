@@ -3,7 +3,7 @@
 <div align="center">
 
 [Mingqian Ji](https://github.com/Mingqj) </sup>,
-Jian Yang </sup>,
+[Jian Yang](https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN) </sup>,
 [Shanshan Zhang](https://shanshanzhang.github.io/) ✉</sup>
 
 </div>
