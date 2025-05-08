@@ -28,9 +28,9 @@ We propose a novel depth encoding strategy to guide multi-modal fusion in 3D obj
 ### Nuscenes Detection
 | Config                                                            | mAP  | NDS  | Backbone |    Image size    | Latency | FPS  | Model|
 |:-----------------------------------------------------------------:|:----:|:----:|:--------:|:----------------:|:-------:|:----:|:----:|
-| [**DepthFusion-Light**](configs/depthfusion/depthfusion-tiny.py)  | 69.8 | 73.3 | ResNet18 | 256 $\times$ 704 |  72.4  | 13.8 | - | 
-| [**DepthFusion-Base**](configs/depthfusion/depthfusion-base.py)   | 71.2 | 74.0 | ResNet50 | 320 $\times$ 800 | 114.9  | 8.7 | - |
-| [**DepthFusion-Large**](configs/depthfusion/depthfusion-large.py) | 72.3 | 74.4 | SwinTiny | 384 $\times$ 1056 | 175.4 | 5.7 | - |
+| [**DepthFusion-Light**](configs/depthfusion/depthfusion-tiny.py)  | 69.8 | 73.3 | ResNet18 | 256 $\times$ 704 |  72.4  | 13.8 | [GoogleDrive](https://drive.google.com/file/d/1tLPTtFenoG6ubWuVmqJFsBJBXMAFfUjp/view?usp=drive_link) | 
+| [**DepthFusion-Base**](configs/depthfusion/depthfusion-base.py)   | 71.2 | 74.0 | ResNet50 | 320 $\times$ 800 | 114.9  | 8.7 | [GoogleDrive](https://drive.google.com/file/d/1DLxeJmnL9jLbAjbHzYHEJADUv9PX1Tjz/view?usp=drive_link) |
+| [**DepthFusion-Large**](configs/depthfusion/depthfusion-large.py) | 72.3 | 74.4 | SwinTiny | 384 $\times$ 1056 | 175.4 | 5.7 | [GoogleDrive](https://drive.google.com/file/d/1Nw4Fp78uVPG1wGwaKhGk133pXifal6vH/view?usp=drive_link) |
 
 The pretrained model weights will be released soon.
 
