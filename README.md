@@ -22,7 +22,8 @@ We propose a novel depth encoding strategy to guide multi-modal fusion in 3D obj
 ![](./resources/pipeline.png)
 
 ## Updates
-- [2025.05.06] - Support DepthFusion for 3D object detection with LiDAR-camera fusion.
+- [2025.05.06] - Released the code and model weights for DepthFusion.
+- [2025.02.24] - Submitted DepthFusion to IEEE Transactions on Multimedia (TMM).
 
 ## Main Results
 ### Nuscenes Detection
