@@ -33,8 +33,6 @@ We propose a novel depth encoding strategy to guide multi-modal fusion in 3D obj
 | [**DepthFusion-Base**](configs/depthfusion/depthfusion-base.py)   | 71.2 | 74.0 | ResNet50 | 320 $\times$ 800 | 114.9  | 8.7 | [GoogleDrive](https://drive.google.com/file/d/1DLxeJmnL9jLbAjbHzYHEJADUv9PX1Tjz/view?usp=drive_link) |
 | [**DepthFusion-Large**](configs/depthfusion/depthfusion-large.py) | 72.3 | 74.4 | SwinTiny | 384 $\times$ 1056 | 175.4 | 5.7 | [GoogleDrive](https://drive.google.com/file/d/1Nw4Fp78uVPG1wGwaKhGk133pXifal6vH/view?usp=drive_link) |
 
-The pretrained model weights will be released soon.
-
 ## Get Started
 
 #### Installation and Data Preparation
