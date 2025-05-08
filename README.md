@@ -66,7 +66,7 @@ python tools/create_data_bevdet.py
 ```
 step 4. Arrange the folder as:
 ```shell script
-└──DepthFusion
+DepthFusion
     └──data
         └── nuscenes
             ├── v1.0-trainval
