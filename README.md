@@ -68,10 +68,10 @@ python tools/create_data_bevdet.py
 step 4. Arrange the folder as:
 ```shell script
 └── nuscenes
-    ├── v1.0-trainval (existing)
-    ├── sweeps  (existing)
-    ├── samples (existing)
-    └── gts (new)
+    ├── v1.0-trainval
+    ├── sweeps 
+    ├── samples
+    └── gts
 ```
 
 #### Train DepthFusion model
