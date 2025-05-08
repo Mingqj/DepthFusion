@@ -13,7 +13,7 @@ Nanjing University of Science and Technology
 
 </div>
 
-## About
+## 📖 About
 
 This repository represents the official implementation of the paper titled "DepthFusion: Depth-Aware Hybrid Feature Fusion for LiDAR-Camera 3D Object Detection".
 
@@ -21,12 +21,12 @@ We propose a novel depth encoding strategy to guide multi-modal fusion in 3D obj
 
 ![](./resources/pipeline.png)
 
-## Updates
+## 📢 Updates
 - [2025.05.06] - Released the code and model weights for DepthFusion.
 - [2025.02.24] - Submitted DepthFusion to IEEE Transactions on Multimedia (TMM).
 
-## Main Results
-### Nuscenes Detection
+## 💾 Main Results
+
 | Config                                                            | mAP  | NDS  | Backbone |    Image size    | Latency | FPS  | Model|
 |:-----------------------------------------------------------------:|:----:|:----:|:--------:|:----------------:|:-------:|:----:|:----:|
 | [**DepthFusion-Light**](configs/depthfusion/depthfusion-tiny.py)  | 69.8 | 73.3 | ResNet18 | 256 $\times$ 704 |  72.4  | 13.8 | [GoogleDrive](https://drive.google.com/file/d/1tLPTtFenoG6ubWuVmqJFsBJBXMAFfUjp/view?usp=drive_link) | 
@@ -35,7 +35,7 @@ We propose a novel depth encoding strategy to guide multi-modal fusion in 3D obj
 
 ## Get Started
 
-#### Installation and Data Preparation
+#### 🛠️ Installation and Data Preparation
 
 step 1. Please prepare environment as that in [Docker](docker/Dockerfile) and run:
 ```shell
@@ -75,7 +75,7 @@ DepthFusion
             └── gts
 ```
 
-#### Train DepthFusion model
+#### 🏋️ Train DepthFusion model
 ```shell
 # single gpu
 python tools/train.py /configs/depthfusion/depthfuison-light.py # light version
@@ -88,7 +88,7 @@ python tools/train.py /configs/depthfusion/depthfuison-large.py # large version
 
 ```
 
-#### Test DepthFusion model
+#### 📋 Test DepthFusion model
 ```shell
 # single gpu
 python tools/test.py /configs/depthfusion/depthfuison-light.py $checkpoint --eval mAP # light version
@@ -100,7 +100,7 @@ python tools/test.py /configs/depthfusion/depthfuison-large.py $checkpoint --eva
 ./tools/dist_test.sh /configs/depthfusion/depthfuison-large.py $checkpoint 8 --eval mAP # large version
 ```
 
-#### Visualize the predicted result.
+#### 👀 Visualize the predicted result.
 ```shell
 # light version
 python tools/test.py /configs/depthfusion/depthfuison-light.py $checkpoint --format-only --eval-options jsonfile_prefix=$savepath
@@ -113,7 +113,7 @@ python tools/test.py /configs/depthfusion/depthfuison-large.py $checkpoint --for
 python tools/analysis_tools/vis.py $savepath/pts_bbox/results_nusc.json
 ```
 
-## Acknowledgement
+## ❤️ Acknowledgement
 
 This project is not possible without multiple great open-sourced code bases. We list some notable examples below.
 
