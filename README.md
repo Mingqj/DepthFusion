@@ -54,7 +54,7 @@ mmdet3d                   1.0.0rc4
 mmsegmentation            0.25.0                                       
 ```
 
-step 2. Prepare DepthFusion repo by.
+step 2. Prepare DepthFusion repo by running:
 ```shell script
 git clone https://github.com/Mingqj/DepthFusion.git
 cd DepthFusion
