@@ -117,11 +117,4 @@ python tools/analysis_tools/vis.py $savepath/pts_bbox/results_nusc.json
 
 This project is not possible without multiple great open-sourced code bases. We list some notable examples below.
 
-- [open-mmlab](https://github.com/open-mmlab)
-- [BEVDet](https://github.com/HuangJunJie2017/BEVDet)
-- [CenterPoint](https://github.com/tianweiy/CenterPoint)
-- [Lift-Splat-Shoot](https://github.com/nv-tlabs/lift-splat-shoot)
-- [Swin Transformer](https://github.com/microsoft/Swin-Transformer)
-- [BEVFusion](https://github.com/mit-han-lab/bevfusion)
-- [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth)
-- [nuScenes-C](https://opendatalab.com/OpenDataLab/nuScenes-C)
+- [open-mmlab](https://github.com/open-mmlab), [BEVDet](https://github.com/HuangJunJie2017/BEVDet), [CenterPoint](https://github.com/tianweiy/CenterPoint), [Lift-Splat-Shoot](https://github.com/nv-tlabs/lift-splat-shoot), [Swin Transformer](https://github.com/microsoft/Swin-Transformer), [BEVFusion](https://github.com/mit-han-lab/bevfusion), [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth), [nuScenes-C](https://opendatalab.com/OpenDataLab/nuScenes-C)
