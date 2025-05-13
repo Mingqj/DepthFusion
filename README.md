@@ -11,6 +11,9 @@ Nanjing University of Science and Technology
 
 ✉ Corresponding author
 
+[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/2505.07398)
+[![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
+
 </div>
 
 ## 📖 About
