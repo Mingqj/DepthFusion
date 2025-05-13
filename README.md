@@ -116,6 +116,16 @@ python tools/test.py /configs/depthfusion/depthfuison-large.py $checkpoint --for
 python tools/analysis_tools/vis.py $savepath/pts_bbox/results_nusc.json
 ```
 
+## ❛❛❞ Citation
+```bibtex
+@article{ji2025depthfusion,
+      title={DepthFusion: Depth-Aware Hybrid Feature Fusion for LiDAR-Camera 3D Object Detection}, 
+      author={Mingqian Ji and Jian Yang and Shanshan Zhang},
+      journal={arXiv preprint arXiv:2505.07398},
+      year={2025},
+}
+```
+
 ## ❤️ Acknowledgement
 
 We thank these great works and open-source codebases: [MMDetection3D](https://github.com/open-mmlab/mmdetection3d), [BEVDet](https://github.com/HuangJunJie2017/BEVDet), [CenterPoint](https://github.com/tianweiy/CenterPoint), [Lift-Splat-Shoot](https://github.com/nv-tlabs/lift-splat-shoot), [Swin Transformer](https://github.com/microsoft/Swin-Transformer), [BEVFusion](https://github.com/mit-han-lab/bevfusion), [BEVDepth](https://github.com/Megvii-BaseDetection/BEVDepth), [nuScenes-C](https://opendatalab.com/OpenDataLab/nuScenes-C)
